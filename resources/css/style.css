@@ -1,0 +1,67 @@
+/* Global */
+
+.wtext{
+  font-family: helvetica;
+  font-size: 1rem;
+  color:white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/* Header and Nav Area */
+.banner{
+  background-color:black;
+}
+
+.title{
+  background-image: url(../images/moto.jpeg);
+  height:25rem;
+  width: 100%;
+  background-repeat: no-repeat; background-position: center; background-size: cover;
+}
+
+.titlecontain{
+  position: relative;
+  left: 9rem;
+  top: 9rem;
+
+  width: 24rem;
+  height:9rem;
+  background-color: black;
+}
+
+.titletext{
+position:relative;
+top: 2rem;
+left: 3rem;
+}
+
+.titletext h1{
+font-size: 2rem;
+white-space: pre-wrap;
+}
+
+nav{
+  height: 2rem;
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-around;
+}
+nav a{
+  text-align: center;
+  font-family: helvetica;
+  font-size: 1rem;
+  color:white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Content Area */
+
+
+
+/* Footer */
