@@ -1,5 +1,9 @@
 /* Global */
 
+body{
+  font-size: 18px;
+}
+
 .wtext{
   font-family: helvetica;
   font-size: 1rem;
@@ -13,6 +17,19 @@
 /* Header and Nav Area */
 .banner{
   background-color:black;
+  display:flex;
+  align-items: center;
+}
+
+.banner h3{
+margin-left: 1rem;
+margin-top: .66rem;
+margin-bottom: .66rem;
+}
+
+.banner img{
+  height: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 .title{
@@ -41,19 +58,23 @@ left: 3rem;
 .titletext h1{
 font-size: 2rem;
 white-space: pre-wrap;
+margin-top: .25rem;
 }
 
+
 nav{
-  height: 2rem;
+  height: 2.5rem;
   background-color: firebrick;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 nav a{
   text-align: center;
   font-family: helvetica;
   font-size: 1rem;
   color:white;
+  top: .75rem;
 }
 
 a:link {
