@@ -176,17 +176,7 @@ margin-top:2rem;
     display:none;
     }
 
-  .titletext h2{
-    font-family: Helvetica;
-    font-size: 0.77rem;
-    font-weight: bold;
-  }
 
-  .titletext h1{
-    font-family: Helvetica;
-    font-size: 1rem;
-    font-weight: bold;
-  }
 
   .titlecontain{
     width:100%;
@@ -228,5 +218,15 @@ footer{
   width: 90%;
 }
 
+.titletext h2{
+  font-family: Helvetica;
+  font-size: 0.77rem;
+  font-weight: bold;
+}
 
+.titletext h1{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
 }
