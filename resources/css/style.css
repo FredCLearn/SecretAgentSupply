@@ -146,3 +146,87 @@ footer {
 span{
 margin-top:2rem;
 }
+
+
+
+/* Screen size support */
+
+@media only screen and (min-width: 1024px) {
+
+.tabletbar{
+  display:none;
+  }
+  }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+
+    }
+
+  .tablet {
+    display:none;
+  }
+
+  .product{
+    width: 47%;
+  }
+
+  .tabbar{
+    display:none;
+    }
+
+  .titletext h2{
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .titletext h1{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .titlecontain{
+    width:100%;
+    position:relative;
+    top: 8rem;
+    left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+.banner{
+  height: 10rem;
+}
+
+footer{
+  justify-content: center;
+}
+
+.row2{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+    width:90%;
+}
+
+.box2{
+  margin-top: 0.5rem;
+}
+
+.nosmall{
+  display: none;
+}
+
+.product{
+  width: 90%;
+}
+
+
+}
